@@ -21,7 +21,7 @@ public class Wrench extends Item{
 	}
 
 	@Override
-	public void use(Entity e, ItemStack stack) {
+	public void use(ItemStack stack,Entity e) {
 		if(e instanceof Player){
 			if(((Player) e ).state == State.inLevel){
 				for(Entity ent : e.level.getEntities(e.x, e.y)){

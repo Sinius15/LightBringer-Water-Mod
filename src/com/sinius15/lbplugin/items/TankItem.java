@@ -18,7 +18,7 @@ public class TankItem extends Item{
 	}
 
 	@Override
-	public void use(Entity e, ItemStack stack) {
+	public void use(ItemStack stack,Entity e) {
 		if(stack.stack<=0 || !e.state.equals(State.inLevel) || !(e instanceof Player))
 			return;
 		Tank p = new Tank(e.level, e.x, e.y, 0, true);

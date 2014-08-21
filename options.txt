@@ -1,0 +1,13 @@
+upKey=38,87,;
+twoKey=50,;
+downKey=40,83,;
+rightKey=39,68,;
+curPlayer=default;
+escapeKey=27,;
+fourKey=52,;
+leftKey=37,65,;
+threeKey=51,;
+shadowNice=true;
+fiveKey=53,;
+enterKey=32,67,10,;
+oneKey=49,;

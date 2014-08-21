@@ -8,9 +8,9 @@ import javax.swing.JOptionPane;
 import lightBringer2.Game;
 import lightBringer2.entities.Direction;
 import lightBringer2.entities.DroppedItem;
+import lightBringer2.external.LightbringerMod;
 import lightBringer2.items.ItemStack;
 import lightBringer2.level.Level;
-import lightBringer2.modding.LightbringerMod;
 
 import com.sinius15.lbplugin.entitys.OneWayFlower;
 import com.sinius15.lbplugin.entitys.Pipe;
@@ -20,7 +20,7 @@ import com.sinius15.lbplugin.items.PipeItem;
 import com.sinius15.lbplugin.items.TankItem;
 import com.sinius15.lbplugin.items.Wrench;
 
-public class Plugin extends LightbringerMod {
+public class Plugin implements LightbringerMod {
 	
 	public static SResourceLoader resources = new SResourceLoader();
 	public static Wrench wrenchItem = new Wrench((byte)50);
